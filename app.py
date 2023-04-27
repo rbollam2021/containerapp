@@ -41,7 +41,7 @@ def shutdown_handler(signal_int: int, frame: FrameType) -> None:
 
     flush()
 
-    # Safely exit program
+    # Safely exit1 program
     sys.exit(0)
 
 
